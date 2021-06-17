@@ -6,4 +6,6 @@
 
 ### Level 3 encryption: email and password. Encrypt password using mongoose-encryption. Add environment variable.
 
-### Level 3 encryption: email and password. Encrypt password using mongoose-encryption. Add environment variable.
+### Level 4 encryption: Hashing
+
+### Level 5 encryption:
