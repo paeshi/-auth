@@ -126,7 +126,8 @@ app.post("/register", function (req, res) {
     }
   );
 });
-app.post("/login", function (req, res) {
+
+app.post("/login", passport.authenticate("local"), function (req, res) {
   const user = new User({
     username: req.body.username,
     password: req.body.password,
@@ -135,9 +136,7 @@ app.post("/login", function (req, res) {
     if (err) {
       console.log(err);
     } else {
-      passport.authenticate("local")(req, res, function () {
-        res.redirect("/secrets");
-      });
+      res.redirect("/secrets");
     }
   });
 });
