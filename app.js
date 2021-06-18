@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(
   session({
-    secret: "keyboard cat",
+    secret: process.env.NEWSECRET,
     resave: false,
     saveUninitialized: false,
   })
