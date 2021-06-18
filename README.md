@@ -10,6 +10,18 @@
 
 ### Level 5 encryption: Salting and hashing with bcrypt. https://www.npmjs.com/package/bcrypt
 
-### Check password strength and how long it would take to hack: http://password-checker.online-domain-tools.com/
+### Level 6 encryption: Using Passport.js to salt, hash, and add cookies and sessions.
 
-### Web app offering modular conversion, encoding, and encryption: https://cryptii.com/
+##### https://www.passportjs.org/
+
+##### https://www.npmjs.com/package/express-session
+
+##### https://www.npmjs.com/package/passport
+
+##### https://www.npmjs.com/package/passport-local
+
+##### https://www.npmjs.com/package/passport-local-mongoose
+
+#### Check password strength and how long it would take to hack: http://password-checker.online-domain-tools.com/
+
+#### Web app offering modular conversion, encoding, and encryption: https://cryptii.com/
