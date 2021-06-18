@@ -8,4 +8,8 @@
 
 ### Level 4 encryption: Hashing. https://www.npmjs.com/package/md5
 
-### Level 5
+### Level 5 encryption: Salting and hashing with bcrypt. https://www.npmjs.com/package/bcrypt
+
+### Check password strength and how long it would take to hack: http://password-checker.online-domain-tools.com/
+
+### Web app offering modular conversion, encoding, and encryption: https://cryptii.com/
