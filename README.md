@@ -25,3 +25,5 @@
 #### Check password strength and how long it would take to hack: http://password-checker.online-domain-tools.com/
 
 #### Web app offering modular conversion, encoding, and encryption: https://cryptii.com/
+
+#### Social Buttons for Bootstrap: https://lipis.github.io/bootstrap-social/
